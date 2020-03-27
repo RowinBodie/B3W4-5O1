@@ -1,4 +1,139 @@
-#paginaBreedte{
-    width: 1000px;
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: gray;
+    
+}
+#mid{
+    width: 1045px;
     margin: 0 auto;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.circle{
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+}
+.box{
+    display: inline-block;
+    width: 500px;
+    height: 140px;
+    margin-top: 20px;
+    border-bottom-color: gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    margin-left: 20px;
+}
+.balk{
+    text-align: center;
+    background-color: white;
+    width: 1045px;
+    margin: 0 auto;
+}
+.name{
+    margin: 0 0 0 150px;
+    font-weight: bold;
+    font-size: 30px;
+    height: 30px;
+}
+#footer{
+    font-weight: 1000;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 10px 0;
+}
+#header{
+    font-weight: 1000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 10px 0;
+}
+.stat{
+    height: 5px;
+    font-size: 15px;
+}
+.statBox{
+    margin-left: 180px;
+}
+#heart,#shield{
+    margin-right: 10px;
+}
+#fist{
+    margin-left: 2px;
+}
+#fist{
+    margin-right: 12px;
+}
+.view{
+    position: relative;
+    left: 280px;
+    bottom: 0px;
+    text-decoration: none;
+    color: black;
+}
+#eye{
+    margin-right: 5px;
+}
+#headerName{
+    font-weight: 1000;
+    font-size: 40px;
+    margin: 10px 0;
+    height: 65px;
+}
+#nameHeader{
+    text-align: center;
+    background-color: white;
+    width: 1045px;
+    margin: 0 auto;
+    height: 65px;
+    margin-bottom: 10px;
+}
+.return{
+    position: relative;
+    left: 480px;
+    bottom: 35px;
+    text-decoration: none;
+    color: black;
+}
+.pf{
+    height: 300px;
+    float: left;
+}
+.bold{
+    font-weight: 1000;
+}
+#status{
+    border: 2px solid black;
+    width: 296px;
+    position: absolute;
+    top: 400px;
+}
+.stats{
+    height: 5px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.status{
+    height: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+#split{
+    padding-bottom: 2px;
+}
+#miep{
+    padding-bottom: 12px;
+}
+.left{
+    margin-left: 20px;
+    padding-top: 10px;
+    min-height: 480px;
+}
+#text{
+    width: 700px;
+    font-size: 20px;
+    margin-left: 310px;
 }
